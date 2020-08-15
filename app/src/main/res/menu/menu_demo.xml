@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btm_search"
+        android:icon="@drawable/ic_outline_search_button"
+        android:title="@string/search"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/btm_3d"
+        android:icon="@drawable/ic_baseline_3d_rotation_24"
+        android:title="@string/_3d"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/btm_accelerator"
+        android:icon="@drawable/ic_baseline_access_time_24"
+        android:title="@string/accelerator"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/btm_dashboard"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        android:title="@string/dashboard"
+        app:showAsAction="ifRoom"/>
+</menu>

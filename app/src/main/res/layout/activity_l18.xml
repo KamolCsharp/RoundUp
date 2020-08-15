@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Activity.L18Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/ImageViewA1"
+                android:src="@drawable/a18_1" />
+
+            <ImageView
+                style="@style/ImageViewA1"
+                android:src="@drawable/a18_2" />
+
+            <EditText
+                android:id="@+id/lessonA18_2"
+                style="@style/TextBoxA18"
+                android:hint="2............................"
+                android:maxLength="5" />
+
+            <ImageView
+                style="@style/ImageViewA1"
+                android:src="@drawable/a18_3" />
+
+            <EditText
+                android:id="@+id/lessonA18_3"
+                style="@style/TextBoxA18"
+                android:hint="3............................"
+                android:maxLength="8" />
+
+            <ImageView
+                style="@style/ImageViewA1"
+                android:src="@drawable/a18_4" />
+
+            <EditText
+                android:id="@+id/lessonA18_4"
+                style="@style/TextBoxA18"
+                android:hint="4............................"
+                android:maxLength="3" />
+
+            <ImageView
+                style="@style/ImageViewA1"
+                android:src="@drawable/a18_5" />
+
+            <EditText
+                android:id="@+id/lessonA18_5"
+                style="@style/TextBoxA18"
+                android:hint="5............................"
+                android:maxLength="3" />
+
+
+            <ImageView
+                style="@style/ImageViewA1"
+                android:src="@drawable/a18_6" />
+
+            <EditText
+                android:id="@+id/lessonA18_6"
+                style="@style/TextBoxA18"
+                android:hint="6............................"
+                android:maxLength="3" />
+
+            <ImageView
+                style="@style/ImageViewA1"
+                android:src="@drawable/a18_7" />
+
+            <EditText
+                android:id="@+id/lessonA18_7"
+                style="@style/TextBoxA18"
+                android:hint="7............................"
+                android:maxLength="5" />
+
+            <ImageView
+                style="@style/ImageViewA1"
+                android:src="@drawable/a18_8" />
+
+            <EditText
+                android:id="@+id/lessonA18_8"
+                style="@style/TextBoxA18"
+                android:hint="8............................"
+                android:maxLength="5" />
+
+            <ImageView
+                style="@style/ImageViewA1"
+                android:src="@drawable/a18_9" />
+
+            <EditText
+                android:id="@+id/lessonA18_9"
+                style="@style/TextBoxA18"
+                android:hint="9............................"
+                android:maxLength="5" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

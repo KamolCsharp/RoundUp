@@ -1,0 +1,38 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="TextBoxA18">
+        <item name="android:lines">1</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:ems">15</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:inputType">text</item>
+    </style>
+    <style name="TextBoxA19">
+        <item name="android:textColor">#201E20</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">italic|bold</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ImageViewA1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">180dp</item>
+    </style>
+
+</resources>
